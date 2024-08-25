@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xhedra.krishicare.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:id="@+id/formBack"
+        android:fitsSystemWindows="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/formLogo"
+        android:src="@drawable/ic_logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/trans_white_rectangle"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="200dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/langtest"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/mr"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/register_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/marathi"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/hi"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/register_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/hindi"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/en"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/register_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/english"
+            android:textColor="@color/white"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="7dp"
+        android:layout_height="334dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true" />
+
+    <ImageButton
+        android:id="@+id/btn_speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/list"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+</RelativeLayout>
