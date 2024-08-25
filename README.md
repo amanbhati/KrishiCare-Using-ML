@@ -1,24 +1,4 @@
 # KrishiCare
-Built in Mhacks Hackathon organized by Maharashtrian Government
+This app is based on the fact that the farmer needs his query to be answered and they could be assisted in other ways. This app was developed with respect to the factors such as the resistance to adopt new technology or being unable to read and write or both. This app would pass the queries to the firebase console where there are query handlers who in turn categorize the given queries on the grounds of language, urgency, etc When the query has been categorized, an e-mail would be sent to an expert and he/she would reply to the e-mail as soon as possible. The app is created in three languages which are English Hindi and Marathi (as the target audience was Maharashtrian farmers). A farmer can ask questions in form of text multimedia message and video and image The reply may also be in form of text multimedia message and video and image and any reply will be sent to the farmer s phone. All these stuff are done using Google firebase. Also each activity has an help button which when clicked would open a video tutorial For the ease of the farmer everything will be said in the chosen language of the farmer (till now any out of the three supported languages). The operation of the app is that it can be controlled by voice where by pressing one button it becomes easier for the farmer to work with. This makes it convenient as the phone number of the farmer is used as a login because making email id as an authentication would complicate the process for the farmers. Actually odd buttons are numbered one,two,three and so on and their action is also defined with phrases like this one, that one and so on, thus eliminating language barrier possibility.
 
-Basic Information :
-This app is based on the theme that a farmer needs his query to be answered and they could be helped in other ways.
-This app was built keeping in mind a the reluctance of acceptance of technology and illiteracy or not able to read or write or both.
-This app would deliver the queries to the firebase console where query handlers would segregate them on the basis of language,urgency etc.
-After the segregation the query will be sent to an expert via mail and he would reply as soon as possible.
-The app is built in three languages namely English,Hindi and Marathi(Because target audience were Maharashtrian farmers).
-Farmers can send their queries in form of text,audio,video and image
-The reply may also contain text,audio,video and image and the farmer gets a notification on his phone when his query gets answered.
-All thses stuff is done using google firebase.
-Also each activity has an help button which when clicked would open a video tutorial
-For the ease of farmer everything will be said in the chosen language of the farmer(till now any out of the three supported languages).
-The app can be controlled by voice just by pressing one button making it more easy for the farmer to adapt.
-The app takes phone number of farmer as login because making email id as an authentication method would make it complex for the farmers.
-Each of the buttons are numbered one,two,three and so on and their action can be seen just by saying their corresponding number hence removing language barrier
-
-PS: Some features of the app are not yet fully functional and just for demo purposes
-
-Contributors:
-    1.Shivansh Beohar
-    2.Dhruv Aggarwal
-    3.Mehul Arora
+PS: There are some components of the app which are not developed completely and these are kept for demonstration purpose.
